@@ -1,2 +1,2 @@
 # wenleks.github.io
-настройки
+settings
