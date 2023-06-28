@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Laravel</title>
+<style type="text/css">
+	div{
+		padding: 10px;
+	}
+</style>
+</head>
+<body>
+    <div>
+      Скачать с сервера все обновления: <br />
+    	<code>git status -s </code><br />
+      если не было изменений то ок, иначе перетираем их: <br />
+      <code>git stash -u</code><br />
+      далее: <br />
+      <code>git pull</code><br />
+      <br />
+  		Добавить все изменения на сервер<br />
+  		<code>git add -A</code><br />
+  		Выполнить выполнить коммит. Описание обязательно.<br />
+  		<code>git commit -m "commit reason text"</code><br />
+  		Отправить изменения на сервер<br />
+  		<code>git push</code>
+      <br />
+      
+    	Запустить миграции + сиды: <br />
+    	<code>php artisan migrate:fresh --seed</code><br />
+    	Создать миграции + таблицы: <br />
+    	<code>php artisan make:migration SectionsTables --create=sections</code><br />
+  		<br />
+    </div>
+</body>
+</html>
