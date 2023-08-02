@@ -27,11 +27,19 @@
 			<code>git push</code>
 		<br />
 		<br />
-	      
 			Запустить миграции + сиды: <br />
 			<code>php artisan migrate:fresh --seed</code><br />
 			Создать миграции + таблицы: <br />
 			<code>php artisan make:migration SectionsTables --create=sections</code><br />
+		<br />
+		<br />
+			Запустить php под определенной версией: <br />
+			<code>/opt/php81/bin/php artisan migrate:fresh --seed</code>
+		<br />
+		<br />
+			На фастпанели после загрузки фалов нужно сменить пользователя: <br />
+			<code>chown -R fastuser:fastuser .*</code>
+		<br />
 		<br />
 	</div>
 </body>
